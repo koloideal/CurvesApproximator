@@ -5,7 +5,7 @@ import os
 import datetime
 
 
-os.makedirs('../content', exist_ok=True)
+os.makedirs('content', exist_ok=True)
 
 
 def mapping1(mapping1_x, a1, b1, c1): return a1 * mapping1_x ** 2 + b1 * mapping1_x + c1
